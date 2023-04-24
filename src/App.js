@@ -42,7 +42,7 @@ function App() {
   // const {user} = useAuth();
   // waituser();
   if (user === null) {
-    if (window.location.pathname === "TaskCast/SignInPage") {
+    if (window.location.pathname === "/SignInPage") {
       return <SignInPage />;
     }
     return <SignUpPage />;
