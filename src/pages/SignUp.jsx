@@ -24,7 +24,7 @@ const refSignInPage =() =>{
 }
 const refAdminPage = () =>{
     alert("Navigating to Admin Page");
-    return(window.location.href = "/SignInPage")
+    return(window.location.href = "TaskCast/SignInPage")
 }
 
 // const auth = getAuth(app);
