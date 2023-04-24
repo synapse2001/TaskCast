@@ -6,9 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { FirebaseProvider } from './context/firebase';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-alert("I am Called");
-
-
 
 
 root.render(
