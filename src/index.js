@@ -8,9 +8,7 @@ import { FirebaseProvider } from './context/firebase';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 alert("I am Called");
 
-if (window.location.pathname !== '/') {
-  window.location.replace('/index.html');
-}
+
 
 
 root.render(
