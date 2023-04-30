@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useFirebase } from "../context/firebase"
 import { useAuth } from "../controllers/userState";
 import HomePage from "../pages/HomePage";
+import TestPage from "../pages/Test";
 
 
 const PodcastPlayer = (props) => {
@@ -37,7 +38,7 @@ const PodcastPlayer = (props) => {
 
   return (
     <div>
-      <HomePage 
+      <TestPage 
         user={user}
         podcastData={podcastData}
       />

@@ -2,6 +2,7 @@ import React, { useState,useEffect } from "react";
 import "../styles/Test.css"
 import { auth, useFirebase } from "../context/firebase";
 import { signOut } from "firebase/auth";
+import HomePage from "./HomePage";
 // import "./Test.js"
 
 let savedTheme = localStorage.getItem('savedTheme');
@@ -101,7 +102,7 @@ const addToDo = (task) =>  {
 
 
 
-const TestPage = () => {
+const TestPage = ({user,podcastData}) => {
 
 
     const [task, setTask] = useState("");
@@ -174,6 +175,12 @@ const TestPage = () => {
             </div>
             <div>
                 <button onClick={() => signOut(auth)}></button>
+            </div>
+            <div className="playercss">
+                <HomePage 
+                    user={user}
+                    podcastData={podcastData}
+                />
             </div>
             {/* <script src="/Test.js" type="text/javascript"> </script> */}
         </body>
