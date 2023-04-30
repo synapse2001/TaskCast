@@ -69,7 +69,7 @@ const addToDo = (task) =>  {
             alert("You must write something!");
         } 
     else {
-        alert("HIIIIIOIdggjd")
+        // alert("HIIIIIOIdggjd")
         // newToDo.innerText = "hey";
         newToDo.innerText = task;
         newToDo.classList.add('todo-item');

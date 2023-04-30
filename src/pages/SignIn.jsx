@@ -24,7 +24,7 @@ const SignInPage = () => {
     }
     function handleGoogleSignin(){
         setLoading(true);
-        alert("signin called");
+        // alert("signin called");
         firebase.signinwithGoogle()
     }
     return (

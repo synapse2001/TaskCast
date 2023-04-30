@@ -48,7 +48,7 @@ const SignUpPage = () => {
     function handleGoogleSignin(){
         let data =firebase.fetchData('users' + 'userssGOLiZue55gFr11u3r6nwErCbpv1')
         console.log(data);
-        alert("signin called");
+        // alert("signin called");
         firebase.signinwithGoogle();
     }
 

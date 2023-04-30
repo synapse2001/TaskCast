@@ -21,8 +21,8 @@ const PodcastPlayer = (props) => {
         );
 
   useEffect(() => {
-    alert("jendnnndnej");
-    alert(firebase.podData.pod1)
+    // alert("jendnnndnej");
+    // alert(firebase.podData.pod1)
     // useEffect(() => {
         // if (firebase.podData) {
           setPodcastData(prevState => {
